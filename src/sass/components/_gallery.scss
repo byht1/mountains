@@ -63,6 +63,12 @@ p {
   height: calc(#{$index} * #{$sideSmall});
 }
 
+.frame__media--mod {
+  position: relative;
+  width: calc(#{$index} * #{$sideSmall});
+  height: calc(#{$index} * #{$sideBig});
+}
+
 .frame__media-left {
   right: calc(#{$sideBig} / 2 * #{$index} + #{$gatter});
 }

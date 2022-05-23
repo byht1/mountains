@@ -155,6 +155,12 @@ p {
   height: calc(calc(1vw + 1vh) * 26);
 }
 
+.frame__media--mod {
+  position: relative;
+  width: calc(calc(1vw + 1vh) * 26);
+  height: calc(calc(1vw + 1vh) * 36);
+}
+
 .frame__media-left {
   right: calc(36 / 2 * calc(1vw + 1vh) + 30px);
 }
