@@ -75,9 +75,15 @@ p {
   background-color: rgba(0, 0, 0, 0.8);
 }
 
-// .text {
-//   display: flex;
-//   justify-content: center;
-//   align-items: center;
-//   flex-wrap: wrap;
-// }
+.audio__icon {
+  width: 50px;
+  position: fixed;
+  bottom: 2vh;
+  right: 2vw;
+  cursor: pointer;
+  transition: 250ms ease;
+}
+
+.audio__icon.paused {
+  opacity: 0.25;
+}

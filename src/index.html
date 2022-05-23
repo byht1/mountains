@@ -9,8 +9,7 @@
       rel="stylesheet"
       href="https://cdnjs.cloudflare.com/ajax/libs/modern-normalize/1.1.0/modern-normalize.min.css"
     />
-    <link rel="stylesheet" href="./css/main.min.css" />
-    <script src="./js/index.js" defer></script>
+    <link rel="stylesheet" href="./sass/main.css" />
   </head>
   <body>
     <div class="container">
@@ -377,5 +376,11 @@
         </div>
       </section>
     </div>
+
+    <img src="./img/sound.gif" alt="audio play" class="audio__icon paused" />
+    <audio src="./audio/ambient.mp3" class="audio" loop></audio>
+
+    <script src="./js/index.js"></script>
+    <script src="./js/audio.js" type="module"></script>
   </body>
 </html>
