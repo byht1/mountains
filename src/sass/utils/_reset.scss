@@ -1,5 +1,10 @@
 body {
   width: 100%;
+  scroll-behavior: none;
+}
+
+body::-webkit-scrollbar {
+  display: none;
 }
 
 body.modal-open {
@@ -50,11 +55,6 @@ button {
 
 button:focus {
   outline: none;
-}
-
-.container {
-  margin-left: 15px;
-  margin-right: 15px;
 }
 
 .visually-hidden {
