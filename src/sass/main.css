@@ -225,7 +225,6 @@ p {
   opacity: 0.5;
   -o-object-fit: cover;
      object-fit: cover;
-  z-index: 1;
 }
 
 .fakeLoader {
