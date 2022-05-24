@@ -77,9 +77,9 @@ p {
   left: calc(#{$sideBig} / 2 * #{$index} + #{$gatter});
 }
 
-.frame--bg {
-  background-color: rgba(0, 0, 0, 0.8);
-}
+// .frame--bg {
+//   background-color: rgba(0, 0, 0, 0.8);
+// }
 
 .audio__icon {
   z-index: 1000;

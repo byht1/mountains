@@ -169,10 +169,6 @@ p {
   left: calc(36 / 2 * calc(1vw + 1vh) + 30px);
 }
 
-.frame--bg {
-  background-color: rgba(0, 0, 0, 0.8);
-}
-
 .audio__icon {
   z-index: 1000;
   width: 50px;
