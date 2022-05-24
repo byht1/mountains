@@ -1,0 +1,1 @@
+{"version":3,"sources":["js/video.js"],"names":["document","addEventListener","querySelector","playbackRate"],"mappings":";AAAAA,SAASC,iBAAiB,mBAAoB,KAC5CD,SAASE,cAAc,UAAUC,aAAe","file":"video.a50e60e4.js","sourceRoot":"../src","sourcesContent":["document.addEventListener('DOMContentLoaded', () => {\n  document.querySelector('.video').playbackRate = 3;\n});\n"]}
