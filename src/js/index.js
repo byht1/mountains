@@ -12,7 +12,8 @@ window.onscroll = function () {
 
   frames.forEach(function (n, i) {
     zVals.push(i * zSpacing + zSpacing);
-    zVals[i] += delta * -5;
+    zVals[i] += delta * -2;
+    // zVals[i] += delta * -5;  БУЛО
     let frame = frames[i];
     transform = `translateZ(${zVals[i]}px)`;
     opacity = 1;
